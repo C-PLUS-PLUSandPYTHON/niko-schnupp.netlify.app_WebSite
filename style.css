@@ -1,0 +1,41 @@
+body{
+    background-color: #000;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px 0px;
+}
+
+.Navbar{
+    background-color: #0100089c;
+}
+
+.Navbar ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.Navbar ul li{
+    margin: 2px 30px;
+    border: 20px;
+}
+
+.Navbar ul li a{
+    font-weight: 500;
+    font-size: 17px;
+    padding: 2px;
+    color: rgb(0, 57, 104);
+    transition-duration: 500ms;
+}
+
+.Navbar ul li a:hover{
+    font-weight: 500;
+    transition-duration: 500ms;
+    border-color:rgb(0, 69, 126);
+    padding: 2px;
+    font-size: 20px;
+    color: rgb(0, 77, 139);
+}
