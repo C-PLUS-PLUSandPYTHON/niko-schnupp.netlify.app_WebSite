@@ -1,6 +1,6 @@
 body{
     background-color: #000;
-    background-image: url("assets/bg.png");
+    background-image: url(".assets/bg.png");
     background-size: cover;
     background-position-x: center;
     background-attachment: fixed;
@@ -39,8 +39,8 @@ body{
     flex: 0 1 auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.highlight a{
-    border-bottom: 5px;
+.highlight{
+    border-bottom: 3px solid rgb(100, 150, 256);
 }
 
 .Navbar a{
