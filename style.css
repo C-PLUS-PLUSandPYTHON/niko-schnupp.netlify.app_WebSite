@@ -6,9 +6,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0px 0px;
+    
 }
 .Navbar{
-    backdrop-filter: blur(5px);
     background-color: #010008be;
     display:flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ body{
     margin-right: 5vw;
     text-decoration: none;
     color: rgb(100, 150, 256);
-    font-size:2vw;
+    font-size:2.5vw;
     flex: 0 1 auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 0.15s ease;
@@ -37,8 +37,8 @@ body{
     border-bottom: 3px solid rgb(100, 150, 256);
 }
 .Logo{
-    height: 3.5vw;
-    width: 3.5vw;
+    height: 4vw;
+    width: 4vw;
     margin: 0.7vw;
     flex-grow: 0;
     display: flex;
@@ -46,17 +46,19 @@ body{
     justify-content: center;
 }
 .Logo img{
-    height: 3vw;
+    height: 3.5vw;
     transition: 0.12s ease;
 }
 .Logo img:hover{
-    height: 3.5vw;
+    height: 4vw;
 }
 .text{
-    padding: 5vw;
+    text-wrap: wrap;
+    padding: 3vw;
+    backdrop-filter: blur(10px);
     background-color: #010008e7;
-    border-radius: 5vw;
-    margin: 5vw;
+    border-radius: 3vw;
+    margin: 3vw;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -65,4 +67,11 @@ body{
 }
 .text p{
     margin: 0;
+}
+
+@media only screen and (orientation: portrait){
+        .Navbar div a::before {
+        content: "✨";
+        margin-right: 1vw;
+    }
 }
